@@ -1,0 +1,140 @@
+.maincontent{
+    margin-top:20px;
+    width:83%;
+    height: 420px;
+    margin-left:100px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    display: block;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    background-color: rgb(252, 251, 251);
+
+}
+
+.imgcar{
+    margin-top:30px;
+    margin-left:30px;
+    height:350px;
+    width: 36%;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    transition: box-shadow .3s;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    float:left;
+    background-color:#fff;
+}
+
+.maincontent img{
+    margin-top:25px;
+    margin-left:10px;
+    height:300px;
+    width:330px;
+}
+
+.tex{
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+    width: 55%;
+    height:350px;
+    
+}
+
+.til{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    color:#000070cc;
+    
+}
+
+.brand{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    margin-left:30px;
+    margin-top:13px;
+    color:Black;
+
+}
+
+.siz{
+    margin-top: 14px;
+    margin-left: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:Black;
+  }
+  
+.gend{
+    margin-left: 35px;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.gend img{
+    width: 35px;
+    height:35px;
+    margin-left:6px;
+    margin-bottom: 24px;
+}
+
+.gend span{
+    font-family:Arial, Helvetica, sans-serif;
+    color:Black;
+    margin-left: 14px;
+    font-size:24px;
+}
+
+.priz{
+    margin-left: 20px;
+}
+
+.me{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    color:#000070cc;
+}
+
+.me img{
+    width: 44px;
+    height:44px;
+    margin-bottom: 24px;
+}
+
+
+.me span{
+    color:Black;
+    font-size: 28px;
+}
+
+
+#beck{
+    border:2px solid;
+    border-color: #000070cc;
+    background-color:#fff;
+    color:#000;
+    font-size:23px;
+    border-radius:14px;
+}
+
+#beck:hover {
+    background-color:#000070cc;
+    color:#fff;
+    font-size:23px;
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+    border-color: #000070cc;
+    
+}
+
+#buy{
+    background-color:#000070cc;
+    height: 49px;
+    width: 130px;
+    text-align: center;
+    font-size:20px;
+    border-radius:14px;
+    border-color: #000070cc;
+
+}
+#buy:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}

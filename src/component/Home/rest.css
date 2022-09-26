@@ -1,0 +1,169 @@
+
+.row-1 {
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+.miniicon {
+    width: 100%;
+    height: 100px;
+}
+
+.widget-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    color :rgb(158, 160, 160)
+}
+
+.td-11 {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 10px 20px 20px;
+    padding: 5px 5px 15px 5px;
+    background-color: white;
+}
+
+
+
+.item img{
+    width:100%;
+    height:400px !important;
+}
+
+.do>a>img{
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+}
+
+.row-2 {
+    margin-top: 40px
+    
+}
+
+.wear {
+    width: 20%;
+    font-family: sans-serif;
+    /* position: relative; */
+    margin-left: 20px;
+    
+}
+
+.wear h2 {
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.row-3 {
+    display: flex;
+}
+
+.row-3>div {
+    padding: 40px;
+    margin-left: 40px;
+}
+
+.row-4 {
+    display: flex;
+}
+
+.row-4>div {
+    padding: 40px;
+}
+
+.trend {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.trend-icon {
+    width: 100%;
+    
+}
+
+.trend-title {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.explore {
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: #56b7c3;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 40px 0px;
+}
+
+.off-70 {
+    padding: 50px 0px;
+}
+
+.off-70 img {
+    width: 100%;
+}
+
+.row-6 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.perfect-head::before {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 590px;
+    top: 60%;
+    left: 45px;
+    position: absolute;
+}
+
+.perfect-head::after {
+    content: "";
+    border: 1px solid;
+    color: #cfcdcd;
+    width: 590px;
+    top: 60%;
+    right: 45px;
+    position: absolute;
+}
+
+.perfect-fit {
+    display: flex;
+    margin: 20px 130px 60px;
+}
+
+.eye-power {
+    width: 50.3%;
+    margin: 10px;
+}
+
+.blu-sun-digi {
+    width: 49.7%;
+    margin: 10px;
+}
+
+.fit {
+    width: 100%;
+    margin: 10px;
+}
+
+.row-49 {
+    margin: 40px 150px 80px 150px;
+}
+
+.row-49-icon {
+    width: 100%;
+}
+.row-48 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}

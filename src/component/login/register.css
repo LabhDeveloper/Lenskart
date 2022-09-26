@@ -1,0 +1,33 @@
+#back {
+    background-color:#100654;
+    text-align: center;
+    font-size:25px;
+    color:#fff;
+    border-radius: 10px;
+    
+}
+
+#ads{
+    width:100%;
+    height:150px;
+    
+}
+label{
+    font-size:20px;
+    color:#1b0a8a;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#has{
+    width:450px;
+    margin-left:28%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 4px rgba(33,33,33,.2); 
+    border-radius: 15px;
+}
+
+#but{
+    background-color:#100654;
+    margin-left:38%;
+    font-size:18px;
+    border-radius: 13px;
+}
