@@ -32,6 +32,9 @@ class Header extends Component {
             sessionStorage.setItem('loginStatus','LoggedIn')
             return(
                 <>
+                    <Link className="track" to="/viewBooking">
+                        Track Order
+                    </Link>
                     <span className="menu-link" to="/login">
                         <span></span> 
                         &#128075; Hi {data.name}
@@ -45,6 +48,9 @@ class Header extends Component {
         }else{
             return(
                 <>
+                    <Link className="track" to="/viewBooking">
+                        Track Order
+                    </Link>
                     <Link className="menu-link" to="/login">
                         <span className="glyphicon glyphicon-log-in"></span> Login
                     </Link> &nbsp;

@@ -2,10 +2,14 @@ import React,{Component} from 'react';
 import Header from '../../Header';
 import './placeOrder.css';
 
-const oUrl = "http://api-lens.herokuapp.com/placeOrder";
+const oUrl = "https://api-lens.herokuapp.com/placeOrder";
 const url = "https://api-lens.herokuapp.com/select";
 
+let current = new Date();
 class PlaceOrder extends Component {
+
+    
+
     constructor(props){
         super(props)
         let sessionData = sessionStorage.getItem('userInfo')?sessionStorage.getItem('userInfo').split(','):[]
@@ -16,6 +20,7 @@ class PlaceOrder extends Component {
             name:sessionData?sessionData[0]:'',
             email:sessionData?sessionData[1]:'',
             cost:0,
+            date:`${current.getDate()}-${current.getMonth()+1}-${current.getFullYear()}`,
             phone:sessionData?sessionData[2]:'',
             address:'',
             pno:''
@@ -45,8 +50,8 @@ class PlaceOrder extends Component {
         if(data){
             return data.map((item) => {
                 return(
-                    <div className="itr">
-                        <div className="imgcard" key={item.product_id}>
+                    <div className="itr" key={item._id}>
+                        <div className="imgcard" >
                             <img src={item.lens_image} alt="frame"/>
                         </div>
                         <div className="txt">

@@ -57,28 +57,32 @@ a {
 }
 .lenskartlogo img{
     height:65px;
-    width:210px;
+    width:100%;
 }
 
 .phonenumber {
-    height:50px;
-    width:180px;
-    margin-bottom: 1%;
+    height:54px;
+    width:16%;
+}
+.phonenumber img{
+    height:54px;
+    width:100%;
+
 }
 
 .searchbox {
     height:50px;
-    width:350px;
+    width:24%;
     border: 1px solid;
     border-radius: 4px;
-    margin-left: 50px;
-    margin-right:15%;
+    margin-left: 20px;
+    margin-right:10%;
 }
 
 
 
 .search {
-    width:330px;
+    width:90%;
     border: none;
     margin-top: 12px;
     font-size: 16px;
@@ -117,6 +121,9 @@ a {
 }  */
 .menu{
     float: right;
+    margin-right: 10px;
+    margin-left:-4%;
+    width: 28%;
 }
 .menu >span{
     margin-left:10px;
@@ -125,3 +132,28 @@ a {
     color: rgb(6, 6, 6);
     margin-right: 10px;
 }
+
+.track{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(6, 6, 6);
+    margin-right: 30px;
+    
+}
+
+.track:hover{
+    color:black;
+    
+}
+
+@media screen and (max-width:400px){
+
+    header {
+        position: fixed;
+        background-color: white;
+        width: 400px;
+        top: 0;
+        z-index: 9999999;
+    }
+}
+

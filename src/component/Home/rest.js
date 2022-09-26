@@ -51,7 +51,7 @@ class Rest extends Component {
                 <div className="main-banner-bar">
 
                 <div className="main-banner">
-                    <Link to="#">
+                   
                     <div className="carousel slide" id="devSlider" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#devSlider" data-slide-to="0" className="active"></li>
@@ -84,7 +84,7 @@ class Rest extends Component {
                             <span className="glyphicon glyphicon-chevron-right"></span>
                         </Link>
                     </div>
-                    </Link>
+                   
                 </div>
                 
                 </div>

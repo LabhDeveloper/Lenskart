@@ -2,11 +2,12 @@ import React from 'react';
 import './placeOrder.css';
 const OrderDisplay = (props) => {
 
+
     const renderTable = ({orderData}) => {
         if(orderData){
             return orderData.map((item) => {
                 return(
-                    <tr key={item.order_id}>
+                    <tr key={item._id}>
                         <td>{item.order_id}</td>
                         <td>{item.brand_name}</td>
                         <td>{item.name}</td>
@@ -14,7 +15,6 @@ const OrderDisplay = (props) => {
                         <td>{item.email}</td>
                         <td>&#8377; {item.cost}</td>
                         <td>{item.date}</td>
-                        <td>{item.status}</td>
                     </tr>
                 )
             })
@@ -37,7 +37,6 @@ const OrderDisplay = (props) => {
                         <th>Email</th>
                         <th>Cost</th>
                         <th>Date</th>
-                        <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
