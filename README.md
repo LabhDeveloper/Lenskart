@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project live at [Create React App](https://framekart.netlify.app/).
+This project live at [here](https://framekart.netlify.app/).
 
 ## Available Scripts
 
