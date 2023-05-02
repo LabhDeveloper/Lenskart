@@ -7,7 +7,7 @@ import './placeOrder.css';
 
 
 // const url = "https://api-lens.herokuapp.com/update";
-const oUrl = "https://api-lens.herokuapp.com/orders";
+const oUrl = "https://nodeapp-production.up.railway.app/orders";
 
 
 class ViewOrder extends Component {

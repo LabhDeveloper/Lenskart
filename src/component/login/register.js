@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Header from '../../Header';
 import './register.css';
 
-const url = "https://lens-jwt.herokuapp.com/api/auth/register";
+const url = "https://lensjwt-production.up.railway.app/api/auth/register";
 
 class Register extends Component{
 

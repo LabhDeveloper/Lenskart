@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import './filter.css';
 
-const url = "https://api-lens.herokuapp.com/filter";
+const url = "https://nodeapp-production.up.railway.app/filter";
 
 class CostFilter extends Component{
 

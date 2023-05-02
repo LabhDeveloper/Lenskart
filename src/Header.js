@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import './header.css';
 import {Link,withRouter} from 'react-router-dom';
-const url = "https://lens-jwt.herokuapp.com/api/auth/userInfo"
+const url = "https://lensjwt-production.up.railway.app/api/auth/userInfo"
 
 
 

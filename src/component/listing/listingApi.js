@@ -8,7 +8,7 @@ import GenderFilter from '../filter/genderFilter';
 import CostFilter from '../filter/costFilter';
 import SortFilter from '../filter/sortFilter';
 
-const url = "https://api-lens.herokuapp.com/products?Category_Id=";
+const url = "https://nodeapp-production.up.railway.app/products?Category_Id=";
 
 
 class Listing extends Component {

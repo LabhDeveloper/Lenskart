@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import Header from '../../Header';
 import './login.css'
 
-const url = "https://lens-jwt.herokuapp.com/api/auth/login";
+const url = "https://lensjwt-production.up.railway.app/api/auth/login";
 
 class Login extends Component{
 

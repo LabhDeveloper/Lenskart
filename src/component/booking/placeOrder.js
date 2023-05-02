@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import Header from '../../Header';
 import './placeOrder.css';
 
-const oUrl = "https://api-lens.herokuapp.com/placeOrder";
-const url = "https://api-lens.herokuapp.com/select";
+const oUrl = "https://nodeapp-production.up.railway.app/placeOrder";
+const url = "https://nodeapp-production.up.railway.app/select";
 
 let current = new Date();
 class PlaceOrder extends Component {
@@ -42,8 +42,9 @@ class PlaceOrder extends Component {
             },
             body:JSON.stringify(obj)
         })
-        //.then(this.props.history.push('/viewBooking'))
+        .then(this.props.history.push('/viewBooking'))
         .then(console.log('order added'))
+
     }
 
     renderItem = (data) => {
@@ -90,7 +91,7 @@ class PlaceOrder extends Component {
                             Your Order
                         </div>
                         <div className="panel-body">
-                            <form action="https://pay-lens.herokuapp.com/paynow" method="POST" >
+                            <form action="" method="" >
                                 <div className="row">
                                     <input type="hidden" name="cost" value={this.state.cost}/>
                                     <input type="hidden" name="order_id" value={this.state.order_id}/>

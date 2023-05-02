@@ -5,7 +5,7 @@ import Header from '../../Header';
 import {Link} from 'react-router-dom';
 
 
-const durl = "https://api-lens.herokuapp.com/details";
+const durl = "https://nodeapp-production.up.railway.app/details";
 
 
 class Details extends Component {
